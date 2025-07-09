@@ -1,0 +1,9 @@
+*** '/kaggle/input/arc-prize-2025/arc-agi_test_challenges.json'에서 문제 로드 중...
+Traceback (most recent call last):
+  File "/home/diziyong/arc_model/arc-prize/main_local.py", line 22, in <module>
+    import common_stuff
+  File "/home/diziyong/arc_model/arc-prize/common_stuff.py", line 21, in <module>
+    arc_test_set = ArcDataset.from_file(arc_challenge_file)  # ARC 테스트 세트 로드
+  File "/home/diziyong/arc_model/arc-prize/arc_loader.py", line 207, in from_file
+    with open(queries_file) as f: queries = f.read()
+FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/input/arc-prize-2025/arc-agi_test_challenges.json'
